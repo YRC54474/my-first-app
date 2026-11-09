@@ -13,5 +13,5 @@ st.write("**ชั้น ม.4/5** เลขที่ 13")
 st.write("**โรงเรียน:** ยุพราชวิทยาลัย")
 
 # Button
-if st.button("My feelings when creating this Application for the first time")
+if st.button("My feelings when creating this Application for the first time"):
   st.success(f"Wow! This is very fun and easy!")
