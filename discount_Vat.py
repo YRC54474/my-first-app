@@ -5,7 +5,7 @@ fullprice = st.number_input("กรอกราคาเต็มของสิ
 discountpercent = st.numberinput("กรอกส่วนลด (%):", min_value=0.0 , value =0.0)
 discount = fullprice * (discountpercent / 100)
 discountedprice = fullprice - discount
-vat = price discountedprice * 0.07
+vat = discountedprice * 0.07
 netprice = discountedprice + vat
 st.title(f"• ส่วนลด ({discountpercent:.2f}%): **{discount:.2f}** %")
 st.title(f"•  ราคาหลังหักส่วนลด: **{discountedprice:.2f}** บาท")
