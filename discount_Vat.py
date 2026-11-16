@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("🧾 แอปคำนวณส่วนลดและ VAT 7%")
 fullprice = st.number_input("กรอกราคาเต็มของสินค้า (บาท):", min_value=0.0 , value=0.0)
-discountpercent = st.numberinput("กรอกส่วนลด (%):", min_value=0.0 , value =0.0)
+discountpercent = st.number_input("กรอกส่วนลด (%):", min_value=0.0 , value =0.0)
 discount = fullprice * (discountpercent / 100)
 discountedprice = fullprice - discount
 vat = discountedprice * 0.07
