@@ -19,7 +19,7 @@ if st.button("▶️ Calculate your BMI value"):
     st.success("🎉 Your weight is average (Healthy)")
   elif 23.0 <= bmi < 25.0:
     st.info("💡 You're starting to have more than average weight")
-  else
+  else:
     st.error("🚨 You're fat. You should excerise more often")
 
 st.divider()
