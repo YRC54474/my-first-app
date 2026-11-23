@@ -23,6 +23,6 @@ if st.button("▶️ Calculate your BMI value"):
     st.error("🚨 You're fat. You should excerise more often")
 
 st.divider()
-st.write("นายคุณานนท์ นนทศิลา เลขที่ 20 ม.4/5")
+st.write("นายคุณานนท์ นนทศิลา เลขที่ 13 ม.4/5")
     
 
